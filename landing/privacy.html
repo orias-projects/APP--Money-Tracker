@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coinsort — Chính sách quyền riêng tư / Privacy Policy</title>
+<!--
+  Trang này phục vụ đồng thời:
+  - Privacy Policy URL (Google Play, Meta, Google OAuth consent, X)
+  - Data deletion instructions URL (Meta "Xóa dữ liệu người dùng", Play Data deletion)
+  Nội dung dựng từ đúng các chuỗi settingsPrivacy* trong lib/l10n/*.arb — sửa ở
+  ARB thì cập nhật lại đây cho khớp. Mục xoá dữ liệu: neo #delete.
+-->
+<style>
+  :root { --gold:#B8860B; --bg:#FFFDF5; --ink:#16181A; --muted:#5A6169; --line:#E8E2CE; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  .wrap { max-width:760px; margin:0 auto; padding:24px 20px 64px; }
+  header { display:flex; align-items:center; gap:14px; padding:8px 0 20px; border-bottom:2px solid #FFC107; }
+  .logo { width:44px; height:44px; border-radius:10px; background:#FFC107; display:flex; align-items:center; justify-content:center; }
+  .logo svg { width:32px; height:32px; }
+  h1 { font-size:1.35rem; margin:0; }
+  .updated { color:var(--muted); font-size:.85rem; margin-top:2px; }
+  .langs { margin-left:auto; display:flex; gap:6px; }
+  .langs button { border:1px solid var(--line); background:#fff; padding:6px 12px; border-radius:999px; cursor:pointer; font-weight:600; }
+  .langs button.on { background:#FFC107; border-color:#FFC107; }
+  h2 { font-size:1.05rem; margin:28px 0 8px; color:var(--gold); text-transform:uppercase; letter-spacing:.04em; }
+  p { margin:8px 0; }
+  ol { padding-left:22px; } li { margin:6px 0; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:12px; padding:16px 18px; margin:12px 0; }
+  .del { border-left:4px solid #FFC107; }
+  a { color:var(--gold); }
+  [hidden] { display:none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="logo" aria-hidden="true">
+    <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" fill="none" stroke="#fff" stroke-width="7"/><circle cx="50" cy="50" r="32" fill="none" stroke="#fff" stroke-width="3"/><text x="50" y="66" text-anchor="middle" font-size="46" font-weight="bold" fill="#fff" font-family="system-ui">$</text></svg>
+  </div>
+  <div>
+    <h1>Coinsort</h1>
+    <div class="updated" data-vi="Chính sách quyền riêng tư — Cập nhật: 01/09/2026" data-en="Privacy Policy — Updated: 01/09/2026"></div>
+  </div>
+  <nav class="langs" aria-label="Language">
+    <button id="btn-vi" onclick="setLang('vi')">VI</button>
+    <button id="btn-en" onclick="setLang('en')">EN</button>
+  </nav>
+</header>
+
+<main>
+<!-- ===================== TIẾNG VIỆT ===================== -->
+<section id="sec-vi" lang="vi">
+  <h2>Dữ liệu chúng tôi lưu</h2>
+  <p>Tài khoản của bạn: tên đăng nhập, tên hiển thị, ảnh đại diện nếu bạn tải lên, và email nếu bạn thêm. Khi đăng nhập bằng Google, Facebook hoặc X, chúng tôi nhận tên, email và ảnh đại diện mà nhà cung cấp đó chia sẻ, cùng ID tài khoản của họ để nhận ra liên kết.</p>
+  <p>Dữ liệu tài chính bạn tự nhập: giao dịch, số tiền, danh mục, ghi chú, tên ví, số dư, ngân sách, và ảnh hoá đơn nếu bạn đính kèm.</p>
+  <p>Dữ liệu nhóm: tên nhóm, danh sách thành viên, phần chia của từng khoản chi và các lần quyết toán.</p>
+  <p>Nếu bạn liên kết Facebook, chúng tôi lưu ID những bạn Facebook cũng dùng Coinsort, chỉ để gợi ý người bạn có thể mời vào nhóm. Không đăng gì lên tài khoản mạng xã hội của bạn.</p>
+
+  <h2>Ai xem được</h2>
+  <p>Dữ liệu trong nhóm cá nhân chỉ mình bạn xem được.</p>
+  <p>Dữ liệu trong nhóm chung hiển thị với mọi thành viên đang hoạt động của nhóm đó — bao gồm số tiền, danh mục, ghi chú và người trả.</p>
+  <p>Số dư ví cá nhân của bạn không hiển thị cho thành viên khác. Ví dùng chung của nhóm thì cả nhóm xem được.</p>
+  <p>Ảnh hoá đơn lưu ở kho riêng tư, chỉ tài khoản đã tải lên mới đọc được.</p>
+
+  <h2>Lưu ở đâu</h2>
+  <p>Dữ liệu lưu trên Supabase (PostgreSQL và Storage). Truy cập được kiểm soát bằng Row Level Security ở tầng cơ sở dữ liệu, không chỉ ở tầng ứng dụng.</p>
+  <p>Cài đặt hiển thị (đơn vị tiền tệ, ngôn ngữ, giao diện) lưu trên chính thiết bị của bạn, không gửi lên máy chủ.</p>
+
+  <h2>Chúng tôi KHÔNG làm</h2>
+  <p>Không bán hay chia sẻ dữ liệu của bạn cho bên thứ ba.</p>
+  <p>Không hiển thị quảng cáo và không gắn mã theo dõi quảng cáo.</p>
+  <p>Không kết nối với ngân hàng và không đọc sao kê của bạn.</p>
+
+  <h2>Quyền của bạn</h2>
+  <p>Xuất dữ liệu: Cài đặt → Xuất dữ liệu, tải toàn bộ giao dịch dạng CSV bất cứ lúc nào.</p>
+
+  <div class="card del" id="delete">
+    <h2 style="margin-top:0">Xoá tài khoản &amp; dữ liệu</h2>
+    <p>Bạn tự xoá được toàn bộ tài khoản ngay trong ứng dụng, không cần liên hệ ai:</p>
+    <ol>
+      <li>Mở Coinsort → tab <b>Tôi</b> → <b>Cài đặt</b>.</li>
+      <li>Chọn <b>Xoá tài khoản</b> (mục cuối, chữ đỏ).</li>
+      <li>Gõ cụm xác nhận theo hướng dẫn trên màn hình rồi bấm xác nhận lần cuối.</li>
+    </ol>
+    <p><b>Những gì bị xoá ngay:</b> hồ sơ (tên, ảnh đại diện, liên kết Google/Facebook/X), email, toàn bộ nhóm cá nhân cùng giao dịch trong đó, ví, danh mục, ngân sách, giao dịch định kỳ, sổ nợ, ảnh hoá đơn và ảnh đại diện trên kho lưu trữ, cùng mọi phiên đăng nhập. Email của bạn được giải phóng — có thể đăng ký lại sau này.</p>
+    <p><b>Ngoại lệ:</b> những giao dịch bạn đã ghi trong nhóm CHUNG được giữ lại, vì xoá đi sẽ làm sai công nợ của các thành viên còn lại. Chúng không còn gắn với hồ sơ của bạn nữa. Muốn xoá cả phần này, hãy xoá thủ công hoặc rời nhóm trước.</p>
+    <p>Nếu không còn đăng nhập được vào ứng dụng, gửi email tới địa chỉ ở mục Liên hệ (kèm tên đăng nhập hoặc email tài khoản) — chúng tôi sẽ xoá thay bạn trong vòng 30 ngày.</p>
+    <p>Với người dùng đăng nhập bằng Facebook: gỡ Coinsort trong Facebook → Cài đặt → Ứng dụng và trang web chỉ ngắt liên kết đăng nhập; muốn xoá dữ liệu trong Coinsort hãy làm theo các bước trên.</p>
+  </div>
+
+  <h2>Bảo mật</h2>
+  <p>Mọi kết nối đều qua HTTPS. Mật khẩu do Supabase Auth quản lý và không bao giờ được lưu trong ứng dụng.</p>
+  <p>Bạn có thể bật khoá bằng vân tay hoặc Face ID trong Cài đặt để thêm một lớp bảo vệ trên thiết bị.</p>
+
+  <h2>Liên hệ</h2>
+  <p>Có câu hỏi về dữ liệu của bạn? Email: <a href="mailto:alongwokez@gmail.com">alongwokez@gmail.com</a></p>
+</section>
+
+<!-- ===================== ENGLISH ===================== -->
+<section id="sec-en" lang="en" hidden>
+  <h2>Data we store</h2>
+  <p>Your account: username, display name, avatar if you upload one, and email if you add one. If you sign in with Google, Facebook or X we receive the name, email and avatar that provider shares, plus the provider's account ID so we can recognise the link.</p>
+  <p>Financial data you enter yourself: transactions, amounts, categories, notes, wallet names, balances, budgets, and receipt photos if you attach them.</p>
+  <p>Group data: group names, member lists, each expense's split, and settlements.</p>
+  <p>If you link Facebook, we store the IDs of your Facebook friends who also use Coinsort, only to suggest people you can invite to a group. Nothing is posted to your social accounts.</p>
+
+  <h2>Who can see it</h2>
+  <p>Data in a personal group is visible only to you.</p>
+  <p>Data in a shared group is visible to every active member of that group — including amounts, categories, notes, and who paid.</p>
+  <p>Your personal wallet balances are not shown to other members. A group's shared wallet is visible to the whole group.</p>
+  <p>Receipt photos are kept in private storage, readable only by the account that uploaded them.</p>
+
+  <h2>Where it's stored</h2>
+  <p>Data is stored on Supabase (PostgreSQL and Storage). Access is controlled by Row Level Security at the database layer, not just in the app.</p>
+  <p>Display settings (currency, language, appearance) are stored on your own device and not sent to the server.</p>
+
+  <h2>What we DON'T do</h2>
+  <p>We don't sell or share your data with third parties.</p>
+  <p>We don't show ads or embed advertising trackers.</p>
+  <p>We don't connect to your bank or read your statements.</p>
+
+  <h2>Your rights</h2>
+  <p>Export data: Settings → Export data to download all your transactions as CSV anytime.</p>
+
+  <div class="card del" id="delete-en">
+    <h2 style="margin-top:0">Delete your account &amp; data</h2>
+    <p>You can delete your entire account yourself, inside the app — no need to contact anyone:</p>
+    <ol>
+      <li>Open Coinsort → <b>Me</b> tab → <b>Settings</b>.</li>
+      <li>Tap <b>Delete account</b> (last item, in red).</li>
+      <li>Type the confirmation phrase shown on screen, then confirm once more.</li>
+    </ol>
+    <p><b>Deleted immediately:</b> your profile (name, avatar, Google/Facebook/X links), email, your entire personal group with its transactions, wallets, categories, budgets, recurring transactions, debt records, receipt and avatar images in storage, and all sessions. Your email address is released — you can register again later.</p>
+    <p><b>Exception:</b> transactions you recorded in SHARED groups are kept, because deleting them would distort the remaining members' balances. They are no longer linked to your profile. To remove these too, delete them manually or leave the group first.</p>
+    <p>If you can no longer sign in, email the address in the Contact section (include your username or account email) — we will delete the account for you within 30 days.</p>
+    <p>Facebook sign-in users: removing Coinsort in Facebook → Settings → Apps and Websites only disconnects the login; to delete your Coinsort data, follow the steps above.</p>
+  </div>
+
+  <h2>Security</h2>
+  <p>All connections use HTTPS. Passwords are managed by Supabase Auth and never stored in the app.</p>
+  <p>You can enable fingerprint or Face ID lock in Settings to add an extra layer of protection on your device.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about your data? Email: <a href="mailto:alongwokez@gmail.com">alongwokez@gmail.com</a></p>
+</section>
+</main>
+</div>
+
+<script>
+function setLang(l) {
+  document.getElementById('sec-vi').hidden = l !== 'vi';
+  document.getElementById('sec-en').hidden = l !== 'en';
+  document.getElementById('btn-vi').classList.toggle('on', l === 'vi');
+  document.getElementById('btn-en').classList.toggle('on', l === 'en');
+  document.documentElement.lang = l;
+  document.querySelectorAll('[data-vi]').forEach(function (e) {
+    e.textContent = e.getAttribute('data-' + l);
+  });
+  try { localStorage.setItem('coinsort-privacy-lang', l); } catch (e) {}
+}
+(function () {
+  var l = new URLSearchParams(location.search).get('lang');
+  if (!l) { try { l = localStorage.getItem('coinsort-privacy-lang'); } catch (e) {} }
+  if (!l) { l = (navigator.language || 'vi').slice(0, 2) === 'en' ? 'en' : 'vi'; }
+  setLang(l === 'en' ? 'en' : 'vi');
+  if (location.hash === '#delete' || location.hash === '#delete-data') {
+    setTimeout(function () {
+      var el = document.querySelector('#sec-vi[hidden]') ? '#delete-en' : '#delete';
+      var n = document.querySelector(el); if (n) n.scrollIntoView();
+    }, 50);
+  }
+})();
+</script>
+</body>
+</html>
