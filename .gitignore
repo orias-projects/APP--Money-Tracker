@@ -1,0 +1,238 @@
+# ============================================================================
+# Operating System Files
+# ============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ============================================================================
+# Editor & IDE
+# ============================================================================
+# VS Code
+.vscode/
+.design/
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Other editors
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.private/
+
+# ============================================================================
+# Build & Output
+# ============================================================================
+/build/
+/coverage/
+*.class
+*.log
+*.pyc
+*.swp
+
+# Dart/Flutter Build
+.dart_tool/
+.flutter-plugins-dependencies
+doc/api/
+
+# Build artifacts
+app.*.symbols
+app.*.map.json
+
+# ============================================================================
+# Flutter & Pub Package Manager
+# ============================================================================
+.pub-cache/
+.pub/
+.packages
+# pubspec.lock — CỐ Ý commit để build reproducible (app, không phải package).
+# pubspec.lock
+
+# ============================================================================
+# Platform-Specific: Android
+# ============================================================================
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+/android/build/
+/android/.gradle/
+/android/captures/
+android/local.properties
+android/.cxx/
+android/GeneratedPluginRegistrant.java
+android/**/*.keystore
+android/**/*.jks
+android/key.properties
+
+# ============================================================================
+# Platform-Specific: iOS
+# ============================================================================
+/ios/Flutter/ephemeral/
+/ios/Flutter/.last_build_id
+/ios/Pods/
+/ios/.symlinks/
+/ios/DerivedData/
+/ios/xcuserdata/
+ios/**/.generated/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Xcode specific
+ios/**/*.mode1v3
+ios/**/*.mode2v3
+ios/**/*.moved-aside
+ios/**/*.pbxuser
+ios/**/*.perspectivev3
+ios/**/*sync/
+ios/.sconsign.dblite
+ios/.tags*
+ios/**/.vagrant/
+ios/Icon?
+ios/profile
+
+# ============================================================================
+# Platform-Specific: macOS
+# ============================================================================
+/macos/Flutter/ephemeral/
+/macos/Pods/
+macos/**/.generated/
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/**/*.pbxuser
+macos/**/*.perspectivev3
+macos/**/DerivedData/
+macos/**/xcuserdata/
+
+# ============================================================================
+# Platform-Specific: Windows
+# ============================================================================
+/windows/flutter/ephemeral/
+windows/flutter/generated_plugins.cmake
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/generated_plugins.cmake
+
+# ============================================================================
+# Platform-Specific: Linux
+# ============================================================================
+/linux/flutter/ephemeral/
+linux/flutter/generated_plugins.cmake
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+
+# ============================================================================
+# Web Build
+# ============================================================================
+/web/flutter_bootstrap.js
+/web/flutter_service_worker.js
+
+# ============================================================================
+# Environment & Secrets
+# ============================================================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.p8
+*.p12
+*.pfx
+
+# ============================================================================
+# Miscellaneous
+# ============================================================================
+migrate_working_dir/
+.swiftpm/
+# Khoá ký Android — KHÔNG BAO GIỜ commit
+android/key.properties
+*.jks
+*.keystore
+
+# Personal Access Token cho tool/supabase_apply.dart
+.supabase_access_token
+
+# --- normalized ignore rules ---
+# Secrets
+!.env.example
+!.env.*.example
+.gitconfig
+# Dependencies / build
+node_modules/
+.venv/
+venv/
+__pycache__/
+.target/
+target/
+bin/
+dist/
+out/
+vendor/
+.pytest_cache/
+.coverage
+.next/
+.nuxt/
+.msversion/
+.agents/
+.claude/
+.cursor/
+.Profile/
+*.dll
+*.exe
+
+# --- normalized ---
+.env
+.env.*
+!.env.example
+!.env.*.example
+.supabase_access_token
+.gitconfig
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+target/
+bin/
+build/
+dist/
+out/
+.dart_tool/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+.pytest_cache/
+.coverage
+coverage/
+.next/
+.nuxt/
+*.log
+.msversion/
+.agents/
+.claude/
+.cursor/
+.private/
+*.dll
+*.exe
+*.class
+vendor/

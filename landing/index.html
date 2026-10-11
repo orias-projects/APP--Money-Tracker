@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- BƯỚC XÁC MINH GOOGLE: Search Console → Add property (URL prefix
+     https://coinsort-money-tracker.netlify.app/) → phương thức "HTML tag" →
+     copy chuỗi content dán THAY chữ PASTE_GOOGLE_TOKEN_HERE rồi deploy lại. -->
+<meta name="google-site-verification" content="-ie-0svG3krH2yfz2QMLttVyfUluck0ml6pvo46DIhA" />
+<title>Coinsort — Sổ thu chi & chia tiền nhóm</title>
+<meta name="description" content="Coinsort là ứng dụng quản lý tài chính cá nhân: ghi thu chi, ví, ngân sách, biểu đồ và chia tiền nhóm. Coinsort is a personal finance app for tracking expenses, budgets and splitting group bills.">
+<style>
+  :root { --gold:#B8860B; --yellow:#FFC107; --bg:#FFFDF5; --ink:#16181A; --muted:#5A6169; --line:#E8E2CE; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  .wrap { max-width:860px; margin:0 auto; padding:24px 20px 48px; }
+  header { display:flex; align-items:center; gap:14px; padding:8px 0 20px; }
+  .logo { width:52px; height:52px; border-radius:12px; background:var(--yellow); display:flex; align-items:center; justify-content:center; flex:none; }
+  .logo svg { width:38px; height:38px; }
+  h1 { font-size:1.7rem; margin:0; }
+  .tag { color:var(--muted); margin-top:2px; }
+  .langs { margin-left:auto; display:flex; gap:6px; }
+  .langs button { border:1px solid var(--line); background:#fff; padding:6px 12px; border-radius:999px; cursor:pointer; font-weight:600; }
+  .langs button.on { background:var(--yellow); border-color:var(--yellow); }
+  .hero { background:linear-gradient(135deg,var(--yellow),#FFD54F); border-radius:16px; padding:28px 24px; margin:8px 0 24px; }
+  .hero h2 { margin:0 0 8px; font-size:1.25rem; }
+  .hero p { margin:0; }
+  h3 { color:var(--gold); font-size:1rem; text-transform:uppercase; letter-spacing:.04em; margin:26px 0 10px; }
+  ul.features { list-style:none; padding:0; margin:0; display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:10px; }
+  ul.features li { background:#fff; border:1px solid var(--line); border-radius:12px; padding:12px 14px; }
+  .soon { display:inline-block; background:#fff; border:1px solid var(--line); border-radius:999px; padding:8px 16px; font-weight:600; }
+  footer { border-top:1px solid var(--line); margin-top:32px; padding-top:16px; color:var(--muted); font-size:.9rem; display:flex; flex-wrap:wrap; gap:8px 20px; }
+  a { color:var(--gold); }
+  [hidden] { display:none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="logo" aria-hidden="true">
+    <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" fill="none" stroke="#fff" stroke-width="7"/><circle cx="50" cy="50" r="32" fill="none" stroke="#fff" stroke-width="3"/><text x="50" y="66" text-anchor="middle" font-size="46" font-weight="bold" fill="#fff" font-family="system-ui">$</text></svg>
+  </div>
+  <div>
+    <h1>Coinsort</h1>
+    <div class="tag" data-vi="Sổ thu chi cá nhân &amp; chia tiền nhóm" data-en="Personal finance &amp; group expense splitting"></div>
+  </div>
+  <nav class="langs" aria-label="Language">
+    <button id="btn-vi" onclick="setLang('vi')">VI</button>
+    <button id="btn-en" onclick="setLang('en')">EN</button>
+  </nav>
+</header>
+
+<section id="vi" lang="vi">
+  <div class="hero">
+    <h2>Coinsort là gì?</h2>
+    <p>Coinsort là ứng dụng di động giúp bạn ghi lại thu nhập và chi tiêu hằng ngày,
+    quản lý nhiều ví và ngân sách, xem biểu đồ báo cáo — và khi đi ăn, đi chơi cùng
+    bạn bè thì <b>chia tiền theo nhóm</b>: ai trả, ai nợ, quyết toán rõ ràng.
+    Đăng nhập bằng tên đăng nhập, Google, Facebook hoặc X. Dữ liệu của bạn là
+    riêng tư — không quảng cáo, không bán dữ liệu, không kết nối ngân hàng.</p>
+  </div>
+
+  <h3>Tính năng chính</h3>
+  <ul class="features">
+    <li>📒 Ghi thu / chi / chuyển khoản, đính kèm ảnh hoá đơn</li>
+    <li>👛 Nhiều ví (tiền mặt, ngân hàng, thẻ tín dụng) và đối soát số dư</li>
+    <li>📊 Biểu đồ chi tiêu theo danh mục, báo cáo tài sản</li>
+    <li>🎯 Ngân sách theo danh mục, giao dịch định kỳ</li>
+    <li>👥 Nhóm chia tiền: chia đều / theo phần trăm / theo phần, quyết toán công nợ</li>
+    <li>🔒 Khoá vân tay / Face ID, xuất CSV, xoá tài khoản trong app</li>
+  </ul>
+
+  <h3>Dữ liệu của bạn</h3>
+  <p>Khi bạn đăng nhập bằng Google, Facebook hoặc X, Coinsort chỉ nhận <b>tên,
+  email và ảnh đại diện</b> từ nhà cung cấp đó — dùng duy nhất để tạo tài khoản
+  và nhận ra bạn khi đăng nhập lại. Dữ liệu thu chi do bạn tự nhập, thuộc về
+  bạn: có thể xuất CSV hoặc xoá toàn bộ tài khoản ngay trong ứng dụng. Chi tiết
+  trong <a href="privacy.html">Chính sách quyền riêng tư</a>.</p>
+
+  <h3>Tải ứng dụng</h3>
+  <p><span class="soon">🚀 Sắp có mặt trên Google Play</span></p>
+</section>
+
+<section id="en" lang="en" hidden>
+  <div class="hero">
+    <h2>What is Coinsort?</h2>
+    <p>Coinsort is a mobile app for tracking daily income and expenses, managing
+    multiple wallets and budgets, and viewing spending reports — plus <b>group
+    expense splitting</b> for meals and trips with friends: who paid, who owes,
+    settled clearly. Sign in with a username, Google, Facebook or X. Your data is
+    private — no ads, no data selling, no bank connections.</p>
+  </div>
+
+  <h3>Key features</h3>
+  <ul class="features">
+    <li>📒 Record income / expenses / transfers with receipt photos</li>
+    <li>👛 Multiple wallets (cash, bank, credit card) with balance reconciliation</li>
+    <li>📊 Spending charts by category, net-worth reports</li>
+    <li>🎯 Budgets per category, recurring transactions</li>
+    <li>👥 Split groups: equal / percentage / shares, debt settlement</li>
+    <li>🔒 Fingerprint / Face ID lock, CSV export, in-app account deletion</li>
+  </ul>
+
+  <h3>Your data</h3>
+  <p>When you sign in with Google, Facebook or X, Coinsort only receives your
+  <b>name, email and avatar</b> from that provider — used solely to create your
+  account and recognise you on later sign-ins. The financial data you enter
+  belongs to you: export it as CSV or delete your entire account inside the app.
+  Details in our <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <h3>Get the app</h3>
+  <p><span class="soon">🚀 Coming soon to Google Play</span></p>
+</section>
+
+<footer>
+  <span>© 2026 Coinsort</span>
+  <a href="privacy.html" data-vi="Chính sách quyền riêng tư" data-en="Privacy Policy"></a>
+  <a href="privacy.html#delete" data-vi="Xoá dữ liệu" data-en="Data deletion"></a>
+  <a href="mailto:alongwokez@gmail.com">alongwokez@gmail.com</a>
+</footer>
+</div>
+
+<script>
+function setLang(l) {
+  document.getElementById('vi').hidden = l !== 'vi';
+  document.getElementById('en').hidden = l !== 'en';
+  document.getElementById('btn-vi').classList.toggle('on', l === 'vi');
+  document.getElementById('btn-en').classList.toggle('on', l === 'en');
+  document.documentElement.lang = l;
+  document.querySelectorAll('[data-vi]').forEach(function (e) {
+    e.innerHTML = e.getAttribute('data-' + l);
+  });
+  try { localStorage.setItem('coinsort-lang', l); } catch (e) {}
+}
+(function () {
+  var l = null;
+  try { l = localStorage.getItem('coinsort-lang'); } catch (e) {}
+  if (!l) { l = (navigator.language || 'vi').slice(0, 2) === 'en' ? 'en' : 'vi'; }
+  setLang(l === 'en' ? 'en' : 'vi');
+})();
+</script>
+</body>
+</html>
