@@ -1,0 +1,36 @@
+# =============================================================================
+# flutter_launcher_icons — sinh icon launcher cho Android / iOS / Web.
+#
+# Ảnh nguồn do tool/gen_icon.dart vẽ (đồng xu + $ nét trắng trên nền vàng):
+#   dart run tool/gen_icon.dart
+#   dart run flutter_launcher_icons -f flutter_launcher_icons.yaml
+#
+# Adaptive icon Android: foreground là ảnh nền TRONG SUỐT (app_icon_fg.png),
+# hình nằm trong vùng an toàn ~66% ở giữa; nền là màu vàng thương hiệu.
+# =============================================================================
+flutter_launcher_icons:
+  # Icon legacy Android + iOS + web: nền vàng đặc, nét trắng.
+  image_path: "assets/ICO/app_icon.png"
+
+  # ----- Android -----
+  android: true # dùng tên mặc định "ic_launcher"
+  min_sdk_android: 24
+
+  # Adaptive icon (Android 8+): nền vàng, foreground chỉ có nét trắng.
+  adaptive_icon_background: "#FFC107"
+  adaptive_icon_foreground: "assets/ICO/app_icon_fg.png"
+  # Monochrome (Android 13+ themed icon): silhouette đồng xu + $.
+  adaptive_icon_monochrome: "assets/ICO/app_icon_fg.png"
+
+  # ----- iOS -----
+  ios: true
+  # App Store từ chối icon có alpha channel → package sẽ làm phẳng nền.
+  remove_alpha_ios: true
+  background_color_ios: "#FFC107"
+
+  # ----- Web -----
+  web:
+    generate: true
+    image_path: "assets/ICO/app_icon.png"
+    background_color: "#FFC107"
+    theme_color: "#FFC107"
