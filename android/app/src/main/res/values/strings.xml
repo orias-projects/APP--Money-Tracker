@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ten app hien thi tren launcher. Thong nhat mot thuong hieu "Coinsort"
+     (khop appTitle trong ARB va applicationId com.coinsort). -->
+<resources>
+    <string name="app_name">Coinsort</string>
+</resources>

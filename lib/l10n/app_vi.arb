@@ -1,0 +1,1125 @@
+{
+  "@@locale": "vi",
+  "@accountEmailPending": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "@accountEmailSaved": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "@accountSelSharedSubtitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@accountUnlinkConfirmTitle": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "@accountUnlinked": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "@accountsCreditLeft": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@accountsCurrentBalance": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@accountsPayDay": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountsReconcileResult": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@accountsWillRecordExpense": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@accountsWillRecordIncome": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@authCodeSentTo": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "@budgetsDaysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@budgetsDeleteConfirm": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "@budgetsOverBy": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@budgetsRemaining": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "catBeauty": "Làm đẹp",
+  "catBonus": "Thưởng",
+  "catCar": "Ô tô",
+  "catClothing": "Quần áo",
+  "catDonations": "Từ thiện",
+  "catEducation": "Học hành",
+  "categoryUncategorized": "Chưa phân loại",
+  "catElectronics": "Đồ điện tử",
+  "catEntertainment": "Giải trí",
+  "catFamily": "Gia đình",
+  "catFoodDining": "Ăn uống",
+  "catFreelance": "Làm tự do",
+  "catGifts": "Quà tặng",
+  "catGiftsReceived": "Quà nhận được",
+  "catHealth": "Sức khoẻ",
+  "catHousing": "Nhà cửa",
+  "catInvestment": "Đầu tư",
+  "catJob": "Công việc",
+  "catOthers": "Khác",
+  "catPets": "Thú cưng",
+  "catSalary": "Lương",
+  "catShopping": "Mua sắm",
+  "catSocial": "Giao lưu",
+  "catSports": "Thể thao",
+  "catTransportation": "Đi lại",
+  "catTravel": "Du lịch",
+  "@categoriesDeleteConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@chartsDateRangeSuffix": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "@chartsError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@commonPaidBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@filterDateRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "@groupsConfirmPaymentBody": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@groupsDeleteGroupConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@groupsError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@groupsFromTo": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "@groupsInviteCodeSemantics": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "@groupsLeaveGroupConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@groupsNameYou": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@groupsNewCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "@groupsPaidShare": {
+    "placeholders": {
+      "paid": {
+        "type": "String"
+      },
+      "owed": {
+        "type": "String"
+      }
+    }
+  },
+  "@groupsRemoveMemberConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "groupName": {
+        "type": "String"
+      }
+    }
+  },
+  "@groupsStillOwes": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@groupsToReceive": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@notifError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@notifInviteTitle": {
+    "placeholders": {
+      "inviter": {
+        "type": "String"
+      }
+    }
+  },
+  "@notifJoinedGroup": {
+    "placeholders": {
+      "group": {
+        "type": "String"
+      }
+    }
+  },
+  "@profileInviteSuccess": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@profileInviteTo": {
+    "placeholders": {
+      "group": {
+        "type": "String"
+      }
+    }
+  },
+  "@profileSyncFacebookDone": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@recordsAllShown": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@recordsGroupOwesYou": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@recordsYouOweGroup": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@recordsYourShare": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@recurringCreatedDue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@recurringInDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@recurringOverdueCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@reportsCreditLeft": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@routeErrorBody": {
+    "placeholders": {
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "@searchNetSpending": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@searchResultCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsDeleteConfirmPrompt": {
+    "placeholders": {
+      "phrase": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsExportCurrencyWarning": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "list": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsExportGroupLabel": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsExportSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsFirstDayOfMonthDesc": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsRecalcFixedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsRecalcMoreWallets": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@splitExcessBy": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@splitPercentTotal": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "@splitShortBy": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "txCategoryLabel": "Danh mục",
+  "@txRecordedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "accountAvatarTapToChange": "Chạm vào ảnh để đổi",
+  "accountBack": "Quay lại",
+  "accountChangePassword": "Đổi mật khẩu",
+  "accountConfirmNewPassword": "Xác nhận mật khẩu mới",
+  "accountCurrentPassword": "Mật khẩu hiện tại",
+  "accountDisplayName": "Tên hiển thị",
+  "accountDisplayNameHint": "Hiện với thành viên nhóm. Không cần duy nhất.",
+  "accountEditUsernameTitle": "Đặt tên đăng nhập",
+  "accountEmail": "Email",
+  "accountEmailAdd": "Thêm email",
+  "accountEmailChange": "Đổi email",
+  "accountEmailDialogHint": "Chúng tôi sẽ gửi liên kết xác minh tới địa chỉ này. Sau khi xác minh, email cũng dùng được để đăng nhập.",
+  "accountEmailNone": "Chưa có email",
+  "accountEmailPending": "Đang chờ xác minh: {email}",
+  "accountEmailPendingHint": "Mở liên kết đã gửi tới địa chỉ đó để hoàn tất.",
+  "accountEmailResend": "Gửi lại",
+  "accountEmailResent": "Đã gửi lại email xác minh.",
+  "accountEmailSaved": "Kiểm tra {email} và mở liên kết xác minh.",
+  "accountEmailUnverified": "Chưa xác minh",
+  "accountEmailVerified": "Đã xác minh",
+  "accountLink": "Liên kết",
+  "accountLinkBrowser": "Hoàn tất trong trình duyệt rồi quay lại đây.",
+  "accountLinkHint": "Đăng nhập nhanh hơn và tìm bạn bè từ các tài khoản này.",
+  "accountNewPassword": "Mật khẩu mới",
+  "accountNotLinked": "Chưa liên kết",
+  "accountNotSet": "Chưa đặt",
+  "accountPassword": "Mật khẩu",
+  "accountPasswordChanged": "Đã cập nhật mật khẩu.",
+  "accountPasswordNone": "Chưa có mật khẩu — bạn đăng nhập bằng tài khoản liên kết.",
+  "accountPasswordSet": "Đã đặt mật khẩu",
+  "accountSectionLinked": "Tài khoản liên kết",
+  "accountSectionLogin": "Cách đăng nhập",
+  "accountSectionProfile": "Hồ sơ",
+  "accountSelAmountOwed": "Số tiền đang nợ",
+  "accountSelCreate": "Tạo ví",
+  "accountSelCreateAction": "Tạo",
+  "accountSelCreateNew": "Tạo ví mới",
+  "accountSelCurrentBalance": "Số dư hiện có",
+  "accountSelEnterName": "Nhập tên ví.",
+  "accountSelNameHint": "VD: Tiền mặt",
+  "accountSelOwedHelper": "Nhập số dương — số tiền bạn đang nợ.",
+  "accountSelSharedSubtitle": "Mọi thành viên nhóm \"{name}\" đều xem và ghi được.",
+  "accountSelSharedWallet": "Ví dùng chung",
+  "accountSelTypeLiability": "Nợ / Thẻ",
+  "accountSetPassword": "Đặt mật khẩu",
+  "accountTitle": "Tài khoản",
+  "accountUnlink": "Gỡ liên kết",
+  "accountUnlinkBlocked": "Hãy đặt mật khẩu hoặc liên kết tài khoản khác trước.",
+  "accountUnlinkConfirmBody": "Bạn sẽ không đăng nhập được bằng tài khoản này nữa.",
+  "accountUnlinkConfirmTitle": "Gỡ liên kết {provider}?",
+  "accountUnlinked": "Đã gỡ liên kết {provider}.",
+  "accountUsername": "Tên đăng nhập",
+  "accountUsernameHint": "Dùng để đăng nhập. Chữ thường, số, dấu chấm, gạch dưới.",
+  "accountUsernameSaved": "Đã cập nhật tên đăng nhập.",
+  "accountsActualBalance": "Số dư thực tế",
+  "accountsAddWallet": "Thêm ví",
+  "accountsAdjustBalance": "Điều chỉnh số dư",
+  "accountsAdjustBalanceSubtitle": "Ghi một giao dịch điều chỉnh, không sửa sổ cũ",
+  "accountsAdjustNote": "Chênh lệch được ghi thành một giao dịch điều chỉnh để sổ cái và số dư luôn khớp nhau.",
+  "accountsAdjustmentRecorded": "Đã ghi giao dịch điều chỉnh.",
+  "accountsArchive": "Lưu trữ ví",
+  "accountsArchiveSubtitle": "Ẩn khỏi danh sách, giữ nguyên lịch sử giao dịch",
+  "accountsArchived": "Đã lưu trữ ví.",
+  "accountsBack": "Quay lại",
+  "accountsBadgeExcluded": "Không tính",
+  "accountsBadgeShared": "Chung",
+  "accountsCreditLeft": "còn {amount}",
+  "accountsCreditLimitLabel": "Hạn mức tín dụng",
+  "accountsCurrencyLabel": "Đơn vị tiền tệ",
+  "accountsCurrentBalance": "Số dư hiện tại: {amount}",
+  "accountsEditWallet": "Sửa ví",
+  "accountsEmptyMessage": "Tạo ví đầu tiên để bắt đầu ghi chép.",
+  "accountsEmptyTitle": "Chưa có ví nào",
+  "accountsGroupArchived": "Đã lưu trữ",
+  "accountsGroupAssets": "Tài sản",
+  "accountsGroupLiabilities": "Nợ và thẻ tín dụng",
+  "accountsIncludeNetWorth": "Tính vào tài sản ròng",
+  "accountsInvalidBalance": "Nhập số dư hợp lệ.",
+  "accountsMoreActions": "Tuỳ chọn",
+  "accountsNameLabel": "Tên ví *",
+  "accountsNoGroup": "Chưa chọn nhóm.",
+  "accountsPayDay": "trả ngày {day}",
+  "accountsPaymentDay": "Ngày thanh toán",
+  "accountsReconcile": "Đối soát ví này",
+  "accountsReconcileResult": "Số dư sau đối soát: {amount}",
+  "accountsRecordAdjustment": "Ghi điều chỉnh",
+  "accountsRestore": "Khôi phục ví",
+  "accountsRestored": "Đã khôi phục ví.",
+  "accountsStatementDay": "Ngày sao kê",
+  "accountsTitle": "Quản lý ví",
+  "accountsWillRecordExpense": "Sẽ ghi một khoản CHI {amount}",
+  "accountsWillRecordIncome": "Sẽ ghi một khoản THU {amount}",
+  "actionAdd": "Thêm",
+  "actionCancel": "Huỷ",
+  "actionClose": "Đóng",
+  "actionConfirm": "Xác nhận",
+  "actionDelete": "Xoá",
+  "actionDone": "Xong",
+  "actionEdit": "Sửa",
+  "actionRetry": "Thử lại",
+  "actionSave": "Lưu",
+  "appLockLocked": "Coinsort đang khoá",
+  "appLockReason": "Xác thực để mở Coinsort",
+  "appLockUnlock": "Mở khoá",
+  "appTitle": "Coinsort",
+  "authBackToLogin": "Quay lại đăng nhập",
+  "authBrowserWaiting": "Hoàn tất đăng nhập trong trình duyệt rồi quay lại đây.",
+  "authCodeSentTo": "Mã 6 số đã gửi đến {email}",
+  "authConfirmNewPasswordLabel": "Xác nhận mật khẩu mới *",
+  "authConfirmPasswordHint": "Nhập lại mật khẩu",
+  "authConfirmPasswordLabel": "Xác nhận mật khẩu *",
+  "authConfirmPasswordRequired": "Nhập xác nhận mật khẩu",
+  "authContinueWithFacebook": "Tiếp tục với Facebook",
+  "authContinueWithGoogle": "Tiếp tục với Google",
+  "authContinueWithX": "Tiếp tục với X",
+  "authEmailHint": "email@vd.com",
+  "authEmailInvalid": "Email không hợp lệ",
+  "authEmailLabel": "Email *",
+  "authEmailReadOnlyLabel": "Email",
+  "authEmailRequired": "Nhập email",
+  "authEnterAllSixDigits": "Nhập đủ 6 số từ email",
+  "authForgotPasswordLink": "Quên mật khẩu?",
+  "authForgotPasswordSubtitle": "Nhập email đăng ký để nhận mã 6 số.",
+  "authForgotPasswordTitle": "Khôi phục mật khẩu",
+  "authFullNameHint": "Nguyễn Văn A",
+  "authFullNameLabel": "Họ tên",
+  "authHaveAccountLogin": "Đã có tài khoản? Đăng nhập",
+  "authHidePassword": "Ẩn mật khẩu",
+  "authIdentifierHint": "email@vd.com hoặc tên đăng nhập",
+  "authIdentifierLabel": "Email hoặc tên đăng nhập *",
+  "authIdentifierRequired": "Nhập email hoặc tên đăng nhập",
+  "authLoginTitle": "Đăng nhập",
+  "authNewPasswordLabel": "Mật khẩu mới *",
+  "authNoAccountRegister": "Chưa có tài khoản? Đăng ký",
+  "authOrContinueWith": "hoặc tiếp tục với",
+  "authPasswordHint": "Nhập mật khẩu",
+  "authPasswordLabel": "Mật khẩu *",
+  "authPasswordMinHint": "Tối thiểu 6 ký tự",
+  "authPasswordMinLength": "Mật khẩu tối thiểu 6 ký tự",
+  "authPasswordMismatch": "Mật khẩu không trùng khớp",
+  "authPasswordRequired": "Nhập mật khẩu",
+  "authRecoverCodeTitle": "Nhập mã xác nhận",
+  "authRegisterSubtitle": "Chỉ cần tên đăng nhập và mật khẩu. Email có thể thêm sau trong Tài khoản.",
+  "authRegisterTitle": "Đăng ký",
+  "authResetPasswordTitle": "Đặt lại mật khẩu",
+  "authSendRecoveryCode": "Gửi mã khôi phục",
+  "authShowPassword": "Hiện mật khẩu",
+  "authUpdatePassword": "Cập nhật mật khẩu",
+  "authUsernameHint": "tên đăng nhập",
+  "authUsernameLabel": "Tên đăng nhập *",
+  "authUsernameRequired": "Nhập tên đăng nhập",
+  "authUsernameRules": "3–30 ký tự: chữ thường, số, dấu chấm hoặc gạch dưới",
+  "authVerificationCodeLabel": "Mã xác nhận *",
+  "budgetsBack": "Quay lại",
+  "budgetsCategoryLabel": "Danh mục *",
+  "budgetsChooseCategory": "Chọn danh mục.",
+  "budgetsDaysLeft": "Còn {days} ngày",
+  "budgetsDeleteConfirm": "Xoá hạn mức cho \"{category}\"?",
+  "budgetsDeleteTitle": "Xoá ngân sách",
+  "budgetsDeleted": "Đã xoá ngân sách.",
+  "budgetsEditLimit": "Sửa hạn mức",
+  "budgetsEmptyMessage": "Đặt hạn mức cho một danh mục để biết khi nào tiêu quá tay.",
+  "budgetsEmptyTitle": "Chưa đặt ngân sách nào",
+  "budgetsInvalidAmount": "Nhập hạn mức lớn hơn 0.",
+  "budgetsLimitLabel": "Hạn mức *",
+  "budgetsOverBy": "Vượt {amount}",
+  "budgetsPastPeriods": "KỲ ĐÃ QUA",
+  "budgetsPeriodLabel": "Chu kỳ",
+  "budgetsRemaining": "Còn {amount}",
+  "budgetsSetLimit": "Đặt hạn mức",
+  "budgetsTitle": "Ngân sách",
+  "budgetsTotalActive": "Tổng hạn mức đang chạy",
+  "categoriesAdd": "Thêm danh mục",
+  "categoriesColorLabel": "Màu",
+  "categoriesDeleteConfirm": "Xoá \"{name}\"? Giao dịch đã dùng danh mục này vẫn giữ nguyên nhãn cũ trong lịch sử.",
+  "categoriesDeleteTitle": "Xoá danh mục",
+  "categoriesDeleted": "Đã xoá danh mục.",
+  "categoriesDragHandle": "Kéo để sắp xếp",
+  "categoriesEditTitle": "Sửa danh mục",
+  "categoriesEmptyMessageExpense": "Thêm danh mục đầu tiên cho khoản chi.",
+  "categoriesEmptyMessageIncome": "Thêm danh mục đầu tiên cho khoản thu.",
+  "categoriesEmptyTitle": "Chưa có danh mục",
+  "categoriesIconLabel": "Biểu tượng",
+  "categoriesManageTitle": "Quản lý danh mục",
+  "categoriesNameHint": "VD: Cà phê",
+  "categoriesNameLabel": "Tên danh mục *",
+  "categoriesNameRequired": "Nhập tên danh mục.",
+  "categoriesNotEditable": "Không sửa được",
+  "categoriesReorderFailed": "Không lưu được thứ tự.",
+  "categoriesSectionSystem": "Danh mục hệ thống",
+  "categoriesSectionYours": "Danh mục của bạn — kéo để sắp xếp",
+  "categoriesTabExpense": "Chi",
+  "categoriesTabIncome": "Thu",
+  "chartsDateRangeSuffix": "\n(từ {start} đến {end})",
+  "chartsError": "Lỗi: {error}",
+  "chartsExpense": "Chi tiêu",
+  "chartsIncome": "Thu nhập",
+  "chartsNoData": "Không có dữ liệu",
+  "chartsNoTransactions": "Chưa có giao dịch",
+  "chartsOthers": "Khác",
+  "chartsOverviewTitle": "Tổng quan Thu / Chi",
+  "chartsRemaining": "Còn lại",
+  "chartsTabExpense": "Chi",
+  "chartsTabIncome": "Thu",
+  "chartsTabOverview": "Tổng quan",
+  "chartsTitle": "Biểu đồ",
+  "chartsTopExpense": "Chi cao nhất gần đây",
+  "chartsTopIncome": "Thu cao nhất gần đây",
+  "chartsTotal": "Tổng",
+  "commonAddTransaction": "Thêm giao dịch",
+  "commonBack": "Quay lại",
+  "commonNavCharts": "Biểu đồ",
+  "commonNavProfile": "Tôi",
+  "commonNavReports": "Báo cáo",
+  "commonNavTransactions": "Giao dịch",
+  "commonOther": "Khác",
+  "commonPaidBy": "Trả bởi {name}",
+  "commonTabExpense": "Chi",
+  "commonTabIncome": "Thu",
+  "commonTabTransfer": "Chuyển",
+  "csvHeaderAmount": "Số tiền",
+  "csvHeaderCategory": "Danh mục",
+  "csvHeaderCurrency": "Đơn vị",
+  "csvHeaderDate": "Ngày",
+  "csvHeaderMyShare": "Phần của tôi",
+  "csvHeaderNote": "Ghi chú",
+  "csvHeaderPayer": "Người trả",
+  "csvHeaderPlace": "Nơi chi",
+  "csvHeaderSplitMode": "Cách chia",
+  "csvHeaderTargetWallet": "Ví đích",
+  "csvHeaderType": "Loại",
+  "csvHeaderWallet": "Ví",
+  "csvTransfer": "Chuyển khoản",
+  "csvUncategorized": "Chưa phân loại",
+  "dayToday": "Hôm nay",
+  "dayTomorrow": "Ngày mai",
+  "dayYesterday": "Hôm qua",
+  "deleteConfirmPhrase": "XOA TAI KHOAN",
+  "errAmountInvalid": "Số tiền phải lớn hơn 0.",
+  "errBalanceUnchanged": "Số dư mới trùng số dư hiện tại.",
+  "errBudgetAmountInvalid": "Hạn mức phải lớn hơn 0.",
+  "errCategoryNameEmpty": "Tên danh mục không được để trống.",
+  "errCodeExpired": "Mã đã hết hạn. Hãy yêu cầu mã mới.",
+  "errCurrentPasswordWrong": "Mật khẩu hiện tại không đúng.",
+  "errDeleteTransactionDenied": "Không xoá được giao dịch. Có thể bạn không còn ở trong nhóm này.",
+  "errDuplicate": "Dữ liệu này đã tồn tại.",
+  "errEmailAlreadyRegistered": "Email này đã được đăng ký. Hãy đăng nhập hoặc dùng Quên mật khẩu.",
+  "errEmailExists": "Email này đã được dùng cho tài khoản khác.",
+  "errEmailNotConfirmed": "Vui lòng xác nhận email trước khi đăng nhập. Kiểm tra hộp thư và thư mục spam.",
+  "errGoogleNotConfigured": "Bản dựng này chưa được cấu hình đăng nhập Google.",
+  "errGroupCreateFailed": "Không tạo được nhóm.",
+  "errGroupNameEmpty": "Tên nhóm không được để trống.",
+  "errIdentityAlreadyLinked": "Tài khoản này đã được liên kết với một người dùng Coinsort khác.",
+  "errImageTooLarge": "Ảnh lớn hơn 5MB. Hãy chụp lại ở chất lượng thấp hơn.",
+  "errInvalidCredentials": "Email hoặc mật khẩu không đúng.",
+  "errInvalidData": "Dữ liệu không hợp lệ. Kiểm tra lại số tiền và các trường bắt buộc.",
+  "errInvalidReference": "Dữ liệu liên kết không hợp lệ hoặc đã bị xoá.",
+  "errLastLoginMethod": "Đây là cách đăng nhập duy nhất của bạn. Hãy đặt mật khẩu hoặc liên kết tài khoản khác trước khi gỡ.",
+  "errLoginIdentifierEmpty": "Nhập email hoặc tên đăng nhập.",
+  "errManualLinkingDisabled": "Máy chủ chưa bật tính năng liên kết tài khoản.",
+  "errNetwork": "Không kết nối được máy chủ. Kiểm tra mạng rồi thử lại.",
+  "errNotFound": "Không tìm thấy dữ liệu.",
+  "errNotLoggedIn": "Chưa đăng nhập. Vui lòng đăng nhập lại.",
+  "errNothingToSave": "Không có thay đổi nào để lưu.",
+  "errOauthCancelled": "Bạn đã huỷ đăng nhập.",
+  "errOauthFailed": "Không đăng nhập được bằng tài khoản này. Thử lại sau.",
+  "errPasswordTooShort": "Mật khẩu quá ngắn. Dùng ít nhất 6 ký tự.",
+  "errPermissionDenied": "Bạn không có quyền thực hiện thao tác này.",
+  "errProfileLoadFailed": "Đăng nhập thành công nhưng không lấy được hồ sơ. Thử lại sau ít phút.",
+  "errProviderTokenMissing": "Kết nối lại Facebook để đồng bộ bạn bè.",
+  "errProviderDisabled": "Cách đăng nhập này đang tạm ngưng.",
+  "errRateLimited": "Bạn thử quá nhiều lần. Đợi một lát rồi thử lại.",
+  "errRegisterConfirmEmail": "Đăng ký thành công. Kiểm tra email để xác nhận rồi đăng nhập.",
+  "errServerError": "Máy chủ trả về lỗi.",
+  "errServerNotSetup": "Máy chủ chưa được cài đặt đầy đủ. Vui lòng liên hệ hỗ trợ.",
+  "errSessionExpired": "Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.",
+  "errShareUnsupported": "Thiết bị không hỗ trợ chia sẻ file.",
+  "errTransactionNotReturned": "Máy chủ không trả về giao dịch vừa ghi.",
+  "errUnknown": "Đã xảy ra lỗi. Thử lại sau ít phút.",
+  "errUsernameInvalid": "Tên đăng nhập gồm 3–30 ký tự: chữ thường, số, dấu chấm hoặc gạch dưới.",
+  "errUsernameNotFound": "Không tìm thấy tài khoản với tên đăng nhập này.",
+  "errUsernameRequiredForPassword": "Hãy đặt tên đăng nhập hoặc thêm email trước để có thể đăng nhập bằng mật khẩu.",
+  "errUsernameTaken": "Tên đăng nhập này đã có người dùng.",
+  "exportShareSubject": "Dữ liệu giao dịch Coinsort",
+  "filterAccountsLabel": "Tài khoản",
+  "filterApply": "Áp dụng",
+  "filterClear": "Xóa bộ lọc",
+  "filterDateRange": "Từ {start} đến {end}",
+  "filterMax90Days": "Chỉ được chọn tối đa 90 ngày",
+  "filterTime30Days": "30 ngày qua",
+  "filterTime7Days": "7 ngày qua",
+  "filterTimeAll": "Tất cả",
+  "filterTimeCustom": "Tùy chọn",
+  "filterTimeLabel": "Thời gian",
+  "filterTitle": "Bộ lọc",
+  "freqDaily": "Hàng ngày",
+  "freqMonthly": "Hàng tháng",
+  "freqWeekly": "Hàng tuần",
+  "freqYearly": "Hàng năm",
+  "groupsAllBalanced": "Mọi khoản chi có chia đều đã cân.",
+  "groupsCodeCopied": "Đã sao chép mã mời.",
+  "groupsConfirmPaymentBody": "Xác nhận bạn đã chuyển {amount} cho {name}?\n\nViệc này chỉ ghi nhận công nợ, không tự trừ tiền trong ví. Nếu muốn ghi cả dòng tiền, hãy tạo thêm một giao dịch chuyển khoản.",
+  "groupsCopyCodeTooltip": "Sao chép mã",
+  "groupsCreateButton": "Tạo nhóm",
+  "groupsCreateNew": "Tạo nhóm mới",
+  "groupsDeleteFailed": "Không xoá được nhóm.",
+  "groupsDeleteGroup": "Xóa nhóm",
+  "groupsDeleteGroupConfirm": "Xóa nhóm \"{name}\"? Thành viên sẽ mất quyền truy cập. Không hoàn tác được.",
+  "groupsEditGroupName": "Sửa tên nhóm",
+  "groupsEditNameTooltip": "Sửa tên",
+  "groupsEmptyList": "Chưa có nhóm. Tạo hoặc tham gia nhóm bên dưới.",
+  "groupsEnterGroupName": "Nhập tên nhóm",
+  "groupsEnterInviteCode": "Nhập mã mời",
+  "groupsError": "Lỗi: {error}",
+  "groupsErrorShort": "Lỗi",
+  "groupsFromTo": "{from} → {to}",
+  "groupsGroupDebts": "Công nợ nhóm",
+  "groupsGroupDebtsSubtitle": "Ai đang nợ ai và cần chuyển bao nhiêu",
+  "groupsGroupDeleted": "Đã xóa nhóm",
+  "groupsGroupNameHint": "VD: Chi tiêu gia đình",
+  "groupsGroupNameLabel": "Tên nhóm *",
+  "groupsGroupNameUpdated": "Đã cập nhật tên nhóm",
+  "groupsInviteCode": "Mã mời",
+  "groupsInviteCodeHint": "VD: K7QM2XPD",
+  "groupsInviteCodeLabel": "Mã mời *",
+  "groupsInviteCodeSemantics": "Mã mời {code}",
+  "groupsJoinButton": "Tham gia nhóm",
+  "groupsJoinByCodeHeader": "Tham gia bằng mã mời",
+  "groupsJoinedGroup": "Đã tham gia nhóm",
+  "groupsLeaveGroup": "Rời nhóm",
+  "groupsLeaveGroupConfirm": "Bạn có chắc muốn rời nhóm \"{name}\"?",
+  "groupsLoadListFailed": "Không tải được danh sách nhóm.",
+  "groupsLoading": "Đang tải...",
+  "groupsManageTitle": "Tạo & tham gia nhóm",
+  "groupsMarkPaid": "Đã trả",
+  "groupsMemberLabel": "Thành viên",
+  "groupsMyGroups": "Nhóm của tôi",
+  "groupsNameYou": "{name} (bạn)",
+  "groupsNewCode": "Mã mới: {code}",
+  "groupsNoMembers": "Chưa có thành viên",
+  "groupsNoSettlements": "Chưa có quyết toán nào",
+  "groupsNobodyOwes": "Không ai nợ ai",
+  "groupsPaidShare": "Đã trả {paid} · phần gánh {owed}",
+  "groupsPaymentRecorded": "Đã ghi nhận thanh toán.",
+  "groupsPerPersonDetail": "Chi tiết từng người",
+  "groupsPersonal": "Cá nhân",
+  "groupsRecordFailed": "Không ghi nhận được.",
+  "groupsRecordPayment": "Ghi nhận đã trả",
+  "groupsRemoveFromGroup": "Xóa khỏi nhóm",
+  "groupsRemoveMemberConfirm": "Bạn có chắc muốn xóa \"{name}\" khỏi nhóm \"{groupName}\"?",
+  "groupsRenameFailed": "Không sửa được tên nhóm.",
+  "groupsRoleAdmin": "Admin",
+  "groupsRotateCodeTooltip": "Đổi mã mới",
+  "groupsSettled": "Đã cân",
+  "groupsSettlementHistory": "Lịch sử quyết toán",
+  "groupsSettlementsEmptyHint": "Các lần trả nợ đã ghi nhận sẽ hiện ở đây.",
+  "groupsStillOwes": "còn nợ {amount}",
+  "groupsToReceive": "được nhận {amount}",
+  "groupsToTransfer": "Cần chuyển",
+  "groupsToTransferSubtitle": "Số lần chuyển ít nhất để mọi người về 0",
+  "groupsYou": "Bạn",
+  "memberFallback": "Thành viên",
+  "notifAccept": "Đồng ý",
+  "notifBack": "Quay lại",
+  "notifDecline": "Từ chối",
+  "notifDeclined": "Đã từ chối lời mời.",
+  "notifEmpty": "Chưa có thông báo nào.",
+  "notifError": "Lỗi: {error}",
+  "notifInviteTitle": "{inviter} mời bạn vào nhóm",
+  "notifJoinError": "Không tham gia được nhóm.",
+  "notifJoinedGroup": "Đã tham gia nhóm {group}.",
+  "notifSomeone": "Ai đó",
+  "notifTitle": "Thông báo",
+  "periodCustom": "Tuỳ chọn",
+  "profileAccountDesc": "Tên đăng nhập, email, mật khẩu, tài khoản liên kết",
+  "profileAvatarPickError": "Không mở được thư viện ảnh.",
+  "profileAvatarUpdated": "Đã cập nhật ảnh đại diện.",
+  "profileBack": "Quay lại",
+  "profileChangeAvatar": "Đổi ảnh đại diện",
+  "profileChooseGroupToInvite": "Chọn nhóm để mời vào",
+  "profileConnectFacebook": "Liên kết Facebook",
+  "profileCreateOrJoinGroup": "Tạo hoặc tham gia nhóm",
+  "profileDefaultUserName": "Người dùng",
+  "profileDisplayNameLabel": "Tên hiển thị",
+  "profileEditNameTitle": "Đổi tên hiển thị",
+  "profileFindFriends": "Tìm bạn",
+  "profileGroupActive": "Đang chọn",
+  "profileInviteFriendsTitle": "Mời bạn vào nhóm",
+  "profileInviteSuccess": "Đã mời {name} vào nhóm.",
+  "profileInviteTo": "Mời vào {group}",
+  "profileInviting": "Đang mời...",
+  "profileMe": "Tôi",
+  "profileMemberFallback": "thành viên",
+  "profileMemberTitle": "Thành viên",
+  "profileNoResults": "Không tìm thấy ai phù hợp.",
+  "profileNoSharedGroups": "Chưa có nhóm chung. Vào Quản lý nhóm → Thêm nhóm → Tạo nhóm mới.",
+  "profileReconnectFacebook": "Kết nối lại Facebook",
+  "profileSearchButton": "Tìm",
+  "profileSearchHint": "Username hoặc họ tên (tối thiểu 2 ký tự)",
+  "profileSearchPrompt": "Nhập từ khóa và bấm Tìm để tìm bạn.",
+  "profileSectionGroups": "Nhóm",
+  "profileSectionTools": "Công cụ",
+  "profileSelectGroup": "Chọn nhóm",
+  "profileSettings": "Cài đặt",
+  "profileSignOut": "Đăng xuất",
+  "profileSignOutConfirm": "Bạn có chắc muốn đăng xuất?",
+  "profileSuggestionSourceFacebook": "Bạn Facebook",
+  "profileSuggestionSourceGroup": "Cùng nhóm với bạn",
+  "profileSuggestionSourceX": "Theo dõi trên X",
+  "profileSuggestionsEmpty": "Chưa có gợi ý. Liên kết Facebook trong Tài khoản hoặc tham gia một nhóm chung.",
+  "profileSuggestionsEmptyNoSocial": "Chưa có gợi ý. Tham gia một nhóm chung để thấy người bạn có thể mời.",
+  "profileSuggestionsTitle": "Gợi ý",
+  "profileSyncFacebook": "Đồng bộ bạn Facebook",
+  "profileSyncFacebookDone": "Đã đồng bộ {count} bạn Facebook có dùng Coinsort.",
+  "profileSyncing": "Đang đồng bộ…",
+  "profileToolAccounts": "Quản lý ví",
+  "profileToolBudgets": "Ngân sách",
+  "profileToolCategories": "Quản lý danh mục",
+  "profileToolFriends": "Bạn bè",
+  "profileToolRecurring": "Giao dịch định kỳ",
+  "profileToolSearch": "Tìm giao dịch",
+  "profileUpdated": "Đã cập nhật hồ sơ.",
+  "receiptAttach": "Đính kèm hoá đơn",
+  "receiptChooseFromLibrary": "Chọn từ thư viện",
+  "receiptLoadFailed": "Không tải được ảnh hoá đơn.",
+  "receiptPickerError": "Không mở được thư viện ảnh.",
+  "receiptRemove": "Gỡ ảnh",
+  "receiptTakePhoto": "Chụp ảnh",
+  "receiptUploadFailed": "Không tải được ảnh.",
+  "receiptUploading": "Đang tải ảnh lên…",
+  "receiptViewFull": "Xem hoá đơn",
+  "recordsAllShown": "Đã hiện hết {count} giao dịch",
+  "recordsEmptyMessage": "Nhấn nút + ở giữa thanh dưới để ghi khoản đầu tiên.",
+  "recordsEmptyTitle": "Chưa có giao dịch",
+  "recordsExpense": "Chi",
+  "recordsGroupOwesYou": "Nhóm đang nợ bạn {amount}",
+  "recordsIncome": "Thu",
+  "recordsRemaining": "Còn lại",
+  "recordsTransfer": "Chuyển khoản",
+  "recordsUncategorized": "Chưa phân loại",
+  "recordsYou": "bạn",
+  "recordsYouOweGroup": "Bạn đang nợ nhóm {amount}",
+  "recordsYourShare": "Phần bạn: {amount}",
+  "recurringAccountLabel": "Ví *",
+  "recurringAddTitle": "Thêm khoản định kỳ",
+  "recurringAmountLabel": "Số tiền *",
+  "recurringAmountMustBePositive": "Nhập số tiền lớn hơn 0.",
+  "recurringBack": "Quay lại",
+  "recurringCategoryLabel": "Danh mục",
+  "recurringCreatedDue": "Đã tạo {count} giao dịch tới hạn.",
+  "recurringDeleteConfirm": "Các giao dịch đã sinh ra từ trước vẫn được giữ nguyên.",
+  "recurringDeleteTitle": "Xoá khoản định kỳ",
+  "recurringDeleted": "Đã xoá.",
+  "recurringDeletedAccount": "Ví đã xoá",
+  "recurringDue": "Đã tới hạn",
+  "recurringEmptyMessage": "Thêm những khoản lặp lại đều đặn như tiền nhà, lương hay gói đăng ký để không phải nhập lại mỗi kỳ.",
+  "recurringEmptyTitle": "Chưa có giao dịch định kỳ",
+  "recurringExpense": "Khoản chi",
+  "recurringExpenseSegment": "Chi",
+  "recurringFrequencyLabel": "Lặp lại",
+  "recurringInDays": "Còn {days} ngày",
+  "recurringIncome": "Khoản thu",
+  "recurringIncomeSegment": "Thu",
+  "recurringNextDate": "Lần kế tiếp",
+  "recurringNoneDue": "Không có giao dịch nào tới hạn.",
+  "recurringNote": "Ghi chú",
+  "recurringOverdueCount": "{count, plural, other{{count} khoản đã tới hạn nhưng chưa được ghi.}}",
+  "recurringRunDueTooltip": "Chạy các khoản tới hạn",
+  "recurringRunFailed": "Không chạy được.",
+  "recurringRunNow": "Chạy ngay",
+  "recurringSelectAccount": "Chọn ví.",
+  "recurringTitle": "Giao dịch định kỳ",
+  "recurringToday": "Hôm nay",
+  "recurringTomorrow": "Ngày mai",
+  "reportsAddWallet": "Thêm ví",
+  "reportsAssets": "Tài sản",
+  "reportsCreditLeft": "Còn {amount} hạn mức",
+  "reportsDebt": "Nợ",
+  "reportsLiabilitiesSection": "Nợ và thẻ tín dụng",
+  "reportsManageWallets": "Quản lý ví",
+  "reportsMultiCurrencyNote": "Mỗi đơn vị tiền tệ được tính riêng. App không quy đổi tỉ giá.",
+  "reportsNetWorth": "Tài sản ròng",
+  "reportsNoWalletsMessage": "Thêm ví để theo dõi tài sản ròng của bạn.",
+  "reportsNoWalletsTitle": "Chưa có ví nào",
+  "reportsNotCountedInNetWorth": "Không tính vào tài sản ròng",
+  "reportsTitle": "Báo cáo",
+  "routeErrorBody": "Không mở được \"{location}\".",
+  "routeErrorGoHome": "Về trang chính",
+  "routeErrorTitle": "Không mở được trang",
+  "searchAmountFrom": "Từ",
+  "searchAmountTo": "Đến",
+  "searchBack": "Quay lại",
+  "searchClear": "Xoá",
+  "searchClearAll": "Xoá hết",
+  "searchEmptyMessage": "Nhập từ khoá, hoặc mở bộ lọc để tìm theo danh mục, số tiền và khoảng thời gian.",
+  "searchEmptyTitle": "Tìm giao dịch",
+  "searchFilters": "Bộ lọc",
+  "searchHint": "Tìm ghi chú, nơi chi…",
+  "searchNetSpending": "Chi ròng {amount}",
+  "searchNoResultsMessage": "Thử bớt điều kiện lọc hoặc đổi từ khoá.",
+  "searchNoResultsTitle": "Không tìm thấy giao dịch",
+  "searchPickDateRange": "Chọn khoảng thời gian",
+  "searchResultCount": "{count} giao dịch",
+  "searchTransfer": "Chuyển khoản",
+  "searchTypeExpense": "Chi",
+  "searchTypeIncome": "Thu",
+  "searchTypeTransfer": "Chuyển",
+  "searchUncategorized": "Chưa phân loại",
+  "settingsBack": "Quay lại",
+  "settingsBiometricLock": "Khoá ứng dụng",
+  "settingsBiometricLockDesc": "Yêu cầu vân tay hoặc Face ID khi mở app",
+  "settingsBudgets": "Ngân sách",
+  "settingsCurrency": "Đơn vị tiền tệ",
+  "settingsDeleteAccount": "Xoá tài khoản",
+  "settingsDeleteAccountDesc": "Xoá vĩnh viễn tài khoản và toàn bộ dữ liệu",
+  "settingsDeleteBulletInvites": "Mọi lời mời vào nhóm liên quan đến bạn",
+  "settingsDeleteBulletPersonalTx": "Toàn bộ giao dịch trong nhóm cá nhân của bạn",
+  "settingsDeleteBulletProfile": "Hồ sơ, tên hiển thị và ảnh đại diện",
+  "settingsDeleteBulletSharedTx": "Giao dịch bạn đã ghi trong các nhóm CHUNG — xoá đi sẽ làm sai công nợ của những thành viên còn lại. Các giao dịch này không còn gắn với hồ sơ của bạn nữa.",
+  "settingsDeleteBulletWallets": "Ví, danh mục riêng, ngân sách, giao dịch định kỳ",
+  "settingsDeleteConfirmButton": "Xoá vĩnh viễn",
+  "settingsDeleteConfirmPrompt": "Gõ \"{phrase}\" để xác nhận",
+  "settingsDeleteDialogBody": "Đây là bước cuối. Sau khi xoá, dữ liệu cá nhân của bạn không khôi phục được.",
+  "settingsDeleteDialogTitle": "Xoá vĩnh viễn?",
+  "settingsDeleteKeepAccount": "Giữ tài khoản",
+  "settingsDeleteMyAccountButton": "Xoá tài khoản của tôi",
+  "settingsDeleteSharedTxNote": "Muốn xoá sạch cả những giao dịch đó? Hãy tự xoá chúng, hoặc rời nhóm trước khi xoá tài khoản.",
+  "settingsDeleteSuccess": "Tài khoản đã được xoá.",
+  "settingsDeleteWarning": "Hành động này không hoàn tác được.",
+  "settingsDeleteWhatKept": "Những gì được giữ lại",
+  "settingsDeleteWhatRemoved": "Những gì sẽ bị xoá",
+  "settingsExportAllHistory": "Toàn bộ lịch sử",
+  "settingsExportClearRange": "Xoá khoảng thời gian",
+  "settingsExportCsvDesc": "File CSV mở được bằng Excel, Google Sheets hay Numbers. Gồm ngày, loại, danh mục, số tiền, ví, ghi chú và phần chia trong nhóm.",
+  "settingsExportCsvTitle": "Xuất CSV",
+  "settingsExportCurrencyWarning": "Ví của bạn dùng {count} đơn vị tiền tệ ({list}). Cột \"Số tiền\" giữ nguyên đơn vị gốc của từng ví — đừng cộng thẳng cả cột.",
+  "settingsExportData": "Xuất dữ liệu",
+  "settingsExportDataDesc": "Tải toàn bộ giao dịch dạng CSV",
+  "settingsExportDateRange": "Khoảng thời gian",
+  "settingsExportGroupLabel": "Nhóm: {name}",
+  "settingsExportMaxRowsNote": "Tối đa 5.000 giao dịch mỗi lần xuất. Nếu lịch sử dài hơn, hãy xuất theo từng khoảng thời gian.",
+  "settingsExportNoGroup": "Chưa chọn nhóm.",
+  "settingsExportPreparing": "Đang chuẩn bị…",
+  "settingsExportShare": "Xuất và chia sẻ",
+  "settingsExportSuccess": "Đã xuất {count} giao dịch.",
+  "settingsFirstDayOfMonth": "Ngày bắt đầu tháng",
+  "settingsFirstDayOfMonthDesc": "Ngày {day} — dùng khi lương về giữa tháng",
+  "settingsHideAmounts": "Ẩn số tiền",
+  "settingsHideAmountsDesc": "Che số tiền khi dùng nơi đông người",
+  "settingsLanguage": "Ngôn ngữ",
+  "settingsManageCategories": "Quản lý danh mục",
+  "settingsManageWallets": "Quản lý ví",
+  "settingsPrivacyContactBody": "Có câu hỏi về dữ liệu của bạn? Liên hệ qua địa chỉ hỗ trợ ghi trên trang cửa hàng ứng dụng.",
+  "settingsPrivacyDataAccount": "Tài khoản của bạn: tên đăng nhập, tên hiển thị, ảnh đại diện nếu bạn tải lên, và email nếu bạn thêm. Khi đăng nhập bằng Google, Facebook hoặc X, chúng tôi nhận tên, email và ảnh đại diện mà nhà cung cấp đó chia sẻ, cùng ID tài khoản của họ để nhận ra liên kết.",
+  "settingsPrivacyDataFinancial": "Dữ liệu tài chính bạn tự nhập: giao dịch, số tiền, danh mục, ghi chú, tên ví, số dư, ngân sách, và ảnh hoá đơn nếu bạn đính kèm.",
+  "settingsPrivacyDataGroup": "Dữ liệu nhóm: tên nhóm, danh sách thành viên, phần chia của từng khoản chi và các lần quyết toán.",
+  "settingsPrivacyDataSocialFriends": "Nếu bạn liên kết Facebook, chúng tôi lưu ID những bạn Facebook cũng dùng Coinsort, chỉ để gợi ý người bạn có thể mời vào nhóm. Không đăng gì lên tài khoản mạng xã hội của bạn.",
+  "settingsPrivacyDontAds": "Không hiển thị quảng cáo và không gắn mã theo dõi quảng cáo.",
+  "settingsPrivacyDontBank": "Không kết nối với ngân hàng và không đọc sao kê của bạn.",
+  "settingsPrivacyDontSell": "Không bán hay chia sẻ dữ liệu của bạn cho bên thứ ba.",
+  "settingsPrivacyHeadingContact": "Liên hệ",
+  "settingsPrivacyHeadingDataStored": "Dữ liệu chúng tôi lưu",
+  "settingsPrivacyHeadingSecurity": "Bảo mật",
+  "settingsPrivacyHeadingWeDont": "Chúng tôi KHÔNG làm",
+  "settingsPrivacyHeadingWhereStored": "Lưu ở đâu",
+  "settingsPrivacyHeadingWhoSees": "Ai xem được",
+  "settingsPrivacyHeadingYourRights": "Quyền của bạn",
+  "settingsPrivacyPolicy": "Chính sách quyền riêng tư",
+  "settingsPrivacyRightsDelete": "Xoá tài khoản: Cài đặt → Xoá tài khoản. Hồ sơ, dữ liệu cá nhân, ví, danh mục và ngân sách của bạn sẽ bị xoá.",
+  "settingsPrivacyRightsDeleteException": "Ngoại lệ khi xoá: những giao dịch bạn đã ghi trong nhóm CHUNG được giữ lại, vì xoá đi sẽ làm sai công nợ của các thành viên còn lại. Chúng không còn gắn với hồ sơ của bạn nữa. Muốn xoá cả phần này, hãy xoá thủ công hoặc rời nhóm trước.",
+  "settingsPrivacyRightsExport": "Xuất dữ liệu: Cài đặt → Xuất dữ liệu, tải toàn bộ giao dịch dạng CSV bất cứ lúc nào.",
+  "settingsPrivacySecurityBiometric": "Bạn có thể bật khoá bằng vân tay hoặc Face ID trong Cài đặt để thêm một lớp bảo vệ trên thiết bị.",
+  "settingsPrivacySecurityHttps": "Mọi kết nối đều qua HTTPS. Mật khẩu do Supabase Auth quản lý và không bao giờ được lưu trong ứng dụng.",
+  "settingsPrivacyTitle": "Quyền riêng tư",
+  "settingsPrivacyUpdated": "Cập nhật: 01/09/2026",
+  "settingsPrivacyWhereDatabase": "Dữ liệu lưu trên Supabase (PostgreSQL và Storage). Truy cập được kiểm soát bằng Row Level Security ở tầng cơ sở dữ liệu, không chỉ ở tầng ứng dụng.",
+  "settingsPrivacyWhereLocal": "Cài đặt hiển thị (đơn vị tiền tệ, ngôn ngữ, giao diện) lưu trên chính thiết bị của bạn, không gửi lên máy chủ.",
+  "settingsPrivacyWhoBalances": "Số dư ví CÁ NHÂN của bạn không hiển thị cho thành viên khác. Ví dùng chung của nhóm thì cả nhóm xem được.",
+  "settingsPrivacyWhoPersonal": "Dữ liệu trong nhóm cá nhân chỉ mình bạn xem được.",
+  "settingsPrivacyWhoReceipts": "Ảnh hoá đơn lưu ở kho riêng tư, chỉ tài khoản đã tải lên mới đọc được.",
+  "settingsPrivacyWhoShared": "Dữ liệu trong nhóm chung hiển thị với mọi thành viên đang hoạt động của nhóm đó — bao gồm số tiền, danh mục, ghi chú và người trả.",
+  "settingsRecalcAllMatch": "Số dư mọi ví đều khớp sổ giao dịch.",
+  "settingsRecalcDesc": "Dựng lại số dư mọi ví từ sổ giao dịch",
+  "settingsRecalcFailed": "Không đối soát được.",
+  "settingsRecalcFixedCount": "Đã sửa {count} ví",
+  "settingsRecalcMoreWallets": "và {count} ví khác…",
+  "settingsRecalcTitle": "Đối soát số dư",
+  "settingsRecurring": "Giao dịch định kỳ",
+  "settingsSectionAccount": "Tài khoản",
+  "settingsSectionCheck": "Kiểm tra",
+  "settingsSectionData": "Dữ liệu",
+  "settingsSectionDisplay": "Hiển thị",
+  "settingsSectionPeriod": "Kỳ tài chính",
+  "settingsTheme": "Giao diện",
+  "settingsThemeDark": "Tối",
+  "settingsThemeLight": "Sáng",
+  "settingsThemeSystem": "Theo hệ thống",
+  "settingsTitle": "Cài đặt",
+  "shellFilterTooltip": "Bộ lọc",
+  "shellFriends": "Bạn bè",
+  "shellNotifications": "Thông báo",
+  "shellSearchTooltip": "Tìm giao dịch",
+  "splitExcessBy": "Thừa {amount}.",
+  "splitMember": "Thành viên",
+  "splitModeEqual": "Chia đều",
+  "splitModeExact": "Số tiền cụ thể",
+  "splitModeNone": "Không chia",
+  "splitModePercent": "Theo phần trăm",
+  "splitModeShares": "Theo số phần",
+  "splitNeedParticipant": "Chọn ít nhất một người để chia.",
+  "splitNeedShares": "Nhập số phần cho ít nhất một người.",
+  "splitPaidByLabel": "Ai trả khoản này *",
+  "splitPercentTotal": "Tổng phần trăm đang là {percent}%, cần đủ 100%.",
+  "splitSharesSuffix": "phần",
+  "splitShortBy": "Còn thiếu {amount}.",
+  "splitYou": "Bạn",
+  "txAccountLabel": "Ví *",
+  "txAccountsMustDiffer": "Ví nguồn và ví đích phải khác nhau.",
+  "txAmountLabel": "Số tiền *",
+  "txAmountMustBePositive": "Nhập số tiền lớn hơn 0.",
+  "txChangesSaved": "Đã lưu thay đổi.",
+  "txCreateFailed": "Không ghi được giao dịch.",
+  "txDeleteCategory": "Xoá danh mục",
+  "txDeleteFailed": "Không xoá được giao dịch.",
+  "txDeleteTransactionConfirm": "Xoá giao dịch này? Số dư ví sẽ được hoàn lại tương ứng.",
+  "txDeleteTransactionTitle": "Xoá giao dịch",
+  "txEditCategory": "Sửa danh mục",
+  "txEditExpenseTitle": "Sửa khoản chi",
+  "txEditIncomeTitle": "Sửa khoản thu",
+  "txEditTransferTitle": "Sửa chuyển khoản",
+  "txFromAccountLabel": "Từ ví *",
+  "txNoGroupSelected": "Chưa chọn nhóm. Kéo xuống để tải lại.",
+  "txNote": "Ghi chú",
+  "txPayeeExpenseHint": "VD: Highlands",
+  "txPayeeExpenseLabel": "Nơi chi",
+  "txPayeeIncomeHint": "VD: Công ty",
+  "txPayeeIncomeLabel": "Nguồn thu",
+  "txRecordedBy": "Ghi bởi {name} · {date}",
+  "txSelectAccount": "Chọn ví.",
+  "txSelectBothAccounts": "Chọn cả ví nguồn và ví đích.",
+  "txToAccountLabel": "Đến ví *",
+  "txTransactionDate": "Ngày giao dịch",
+  "txTransactionDeleted": "Đã xoá giao dịch.",
+  "txUpdateFailed": "Không cập nhật được giao dịch."
+}

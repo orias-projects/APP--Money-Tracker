@@ -1,0 +1,37 @@
+# =============================================================================
+# flutter_native_splash — sinh màn hình splash gốc (native) cho Android/iOS/Web.
+#
+# Logo do tool/gen_icon.dart vẽ (assets/ICO/splash_logo.png — nét trắng, nền
+# trong suốt) đặt trên nền vàng thương hiệu #FFC107, đồng bộ với icon launcher.
+#
+#   dart run flutter_native_splash:create --path=flutter_native_splash.yaml
+#   (gỡ để tạo lại: dart run flutter_native_splash:remove)
+# =============================================================================
+flutter_native_splash:
+  # ----- Chế độ sáng -----
+  color: "#FFC107"
+  image: assets/ICO/splash_logo.png
+
+  # ----- Chế độ tối -----
+  # Splash là màn thương hiệu nên giữ nguyên vàng ở cả hai chế độ.
+  color_dark: "#FFC107"
+  image_dark: assets/ICO/splash_logo.png
+
+  # ----- Android 12+ (API 31+) -----
+  android_12:
+    image: assets/ICO/splash_logo.png
+    icon_background_color: "#FFC107"
+    color: "#FFC107"
+    image_dark: assets/ICO/splash_logo.png
+    icon_background_color_dark: "#FFC107"
+    color_dark: "#FFC107"
+
+  # ----- Nền tảng bật -----
+  android: true
+  ios: true
+  web: true
+
+  # KHÔNG bật fullscreen: trên Android nó ẩn status bar lúc splash rồi hiện
+  # lại khi vào app (giật layout); trên iOS nó ghi UIStatusBarHidden=true và
+  # ẩn status bar VĨNH VIỄN cho cả app.
+  fullscreen: false
