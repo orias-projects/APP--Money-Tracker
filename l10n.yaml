@@ -1,0 +1,7 @@
+# Cấu hình sinh AppLocalizations từ các file .arb trong lib/l10n.
+# Tiếng Việt là ngôn ngữ gốc (template) vì toàn bộ chuỗi gốc viết bằng tiếng Việt.
+arb-dir: lib/l10n
+template-arb-file: app_vi.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+nullable-getter: false
